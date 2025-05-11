@@ -64,4 +64,4 @@ This project is an Excel-based analytical study designed to help you gain a deep
 
 ---
 
-> **Disclaimer:** All customer and sales data used in this project is fictional and anonymized for illustrative purposes only.
+> **Important Note:** Developed as a personal project during my tenure at a company, this workbook contains only **placeholder and anonymized** data. All customer information, sales figures, and other metrics have been completely altered; no real company data is present. This project is shared for the purpose of illustrating the methodology and functionality it employs.
