@@ -6,22 +6,6 @@ This project is an Excel-based analytical study designed to help you gain a deep
 
 ---
 
-## 🔍 Table of Contents
-
-- Project Objective  
-- Features  
-- File Structure & Sheets  
-  - Main Comparison Quarter  
-  - Formula  
-  - Yearly Sheets (2017–2023)  
-  - Main Comparison Data  
-- Analysis Methodology  
-- Getting Started  
-- Contribution  
-- License  
-
----
-
 ## 🎯 Project Objective
 
 - **Segmentation:** Classify customers into X, Y, Z categories based on value (Sales Amount, Order Count, Quantity) and consistency (temporal fluctuations).
@@ -67,7 +51,7 @@ This project is an Excel-based analytical study designed to help you gain a deep
 
 1. Clone the repository:  
    ```bash  
-   git clone https://github.com/mertguneridudu/customer-performance-xyz.git  
+   git clone https://github.com/mertguneridudu/customer-performance-xyz-analysis.git  
    ```
 
 2. Open the Excel file: `Customer_Performance_XYZ_Analysis.xlsx`
