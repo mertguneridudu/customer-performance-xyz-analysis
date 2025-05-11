@@ -56,11 +56,36 @@ This project is an Excel-based analytical study designed to help you gain a deep
 
 2. Open the Excel file: `Customer_Performance_XYZ_Analysis.xlsx`
 
-3. Load your data into the **Data** sheet.(Just for 2017-2023)
+3. Load your data into the **Data** sheet.(Ensure your data covers the 2017-2023 analysis period.)
 
 4. Update analysis parameters in the **Formula** sheet as needed.
 
-5. Review the results on **Main Comparison Quarter** and **Main Comparison Data** sheets.
+5. Insert the “Refresh All Pivots” macro:
+
+Press Alt + F11 to open the VBA editor.
+
+In the Project Explorer, right‑click VBAProject (Customer_Performance_XYZ_Analysis.xlsm) → Insert → Module.
+
+Paste this code into the new module:
+
+```bash  
+Sub RefreshAllPivots()
+    Dim ws As Worksheet
+    Dim pt As PivotTable
+    For Each ws In ThisWorkbook.Worksheets
+        For Each pt In ws.PivotTables
+            pt.RefreshTable
+        Next pt
+    Next ws
+End Sub
+```
+Save the workbook.
+
+6. Run the macro before viewing results:
+
+In Excel: Developer tab → Macros → select RefreshAllPivots → Run.
+
+7. Review the results on **Main Comparison Quarter** and **Main Comparison Data** sheets.
 
 ---
 
